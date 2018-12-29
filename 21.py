@@ -1,0 +1,13 @@
+N=int(input("n="))
+A=int(input("a="))
+D=int(input("d="))
+if(1<=N<=100000):
+sum=0
+i=0
+while(i<N):
+sum=sum+A
+A=A+D
+i=i+1
+print(sum)
+else:
+print("invalid")
