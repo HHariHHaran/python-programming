@@ -1,3 +1,3 @@
-s=input("enter your string:")
-s1=s[::-1]
-print(s1)
+a=input("enter your string:")
+a1=a[::-1]
+print(a1)
