@@ -1,0 +1,9 @@
+a=int(input("a"))
+o=len(str(a))
+b=1;
+c=0;
+while(a>0):
+b=a%10
+a=a//10
+c=c+(b**o)
+print(c)
